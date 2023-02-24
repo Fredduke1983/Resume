@@ -1,6 +1,7 @@
 :root {
   --accent-color: #0e0791;
   --hover-color: #47b5cd;
+  --main-color: #000;
 }
 
 body {
@@ -13,6 +14,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 /* main style */
@@ -46,7 +51,7 @@ h3 {
 }
 
 .main-title {
-  color: #000;
+  color: var(--main-color);
   font-size: 22px;
   font-weight: 700;
 }
@@ -61,7 +66,7 @@ h3 {
 /* about */
 .title-user {
   display: block;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--main-color);
 }
 
 .about h2 {
@@ -130,7 +135,7 @@ span {
 .work li::before {
   content: "•";
   font-weight: 700;
-  color: #000;
+  color: var(--main-color);
   padding-right: 7px;
 }
 #company-1 {
@@ -190,7 +195,7 @@ span {
 }
 
 .contacts p {
-  margin: 0;
+  margin-bottom: 5px;
 }
 
 .contacts span:hover {
@@ -198,8 +203,18 @@ span {
 }
 
 .contacts span {
+  font-weight: 600;
+  font-size: 15px;
   color: var(--accent-color);
+  /* color: #000; */
   margin-left: 7px;
+}
+
+.location-text {
+  padding-left: 5px;
+  margin-top: 5px;
+  font-style: italic;
+  color: var(--main-color);
 }
 
 /* Tech-skills */
