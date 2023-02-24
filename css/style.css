@@ -1,3 +1,8 @@
+:root {
+  --accent-color: #0e0791;
+  --hover-color: #47b5cd;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -48,16 +53,21 @@ h3 {
 
 /*--- MAIN-CONTENT --- */
 .main-content {
-  margin-left: 88px;
+  margin-left: 80px;
   margin-top: 102px;
   width: 70%;
 }
 
 /* about */
+.title-user {
+  display: block;
+  border-bottom: 1px solid black;
+}
+
 .about h2 {
   font-size: 14px;
-  margin-bottom: 19px;
 }
+
 .about h1 {
   font-size: 45px;
 }
@@ -79,9 +89,14 @@ h3 {
 .projects a,
 span {
   text-decoration: none;
-  color: #a8a8a8;
+  color: #666;
   font-weight: 400;
 }
+
+.projects a:hover {
+  color: var(--hover-color);
+}
+
 .projects h3 {
   margin-bottom: 8px;
 }
@@ -99,7 +114,7 @@ span {
 }
 .work span,
 .education span {
-  color: #120aa3;
+  color: var(--accent-color);
   font-weight: 700;
 }
 .work p,
@@ -141,11 +156,11 @@ span {
 
 /*--- SIDEBAR ---*/
 .sidebar {
-  background: rgb(241, 241, 238);
+  background: rgb(241, 241, 241);
   background: linear-gradient(
-    356deg,
-    rgba(241, 241, 238, 1) 30%,
-    rgba(80, 82, 84, 0.6) 70%
+    200deg,
+    rgba(241, 241, 241, 1) 30%,
+    rgba(80, 82, 84, 0.5) 70%
   );
 
   min-height: 1319px;
@@ -168,28 +183,27 @@ span {
   margin-bottom: 8px;
 }
 /* Contacts */
-.contacts-ref p {
+
+.contacts-ref {
+  display: flex;
+  align-items: flex-end;
+}
+
+.contacts p {
   margin: 0;
 }
 
-.contacts-ref a {
-  color: #0e0791;
+.contacts span:hover {
+  color: var(--hover-color);
 }
 
-.contacts-ref a:hover {
-  color: #47b5cd;
+.contacts span {
+  color: var(--accent-color);
+  margin-left: 7px;
 }
 
-#phone::before {
-  content: "\260e";
-  margin-right: 7px;
-}
-#mail::before {
-  content: "\2709";
-  margin-right: 7px;
-}
 /* Tech-skills */
-.tech-skills {
+.skills {
   margin-top: 47px;
 }
 
@@ -198,11 +212,10 @@ span {
   line-height: 24px;
 }
 /* Soft-skills */
-.soft-skills {
-  margin-top: 44px;
-}
+
 .sidebar li::before {
   content: "•";
   padding-right: 7px;
   font-size: 15px;
+  color: var(--accent-color);
 }
