@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* main style */
 .main {
   display: flex;
@@ -46,6 +50,7 @@ h3 {
 .main-content {
   margin-left: 88px;
   margin-top: 102px;
+  width: 70%;
 }
 
 /* about */
@@ -94,7 +99,7 @@ span {
 }
 .work span,
 .education span {
-  color: #fb6d3a;
+  color: #120aa3;
   font-weight: 700;
 }
 .work p,
@@ -136,9 +141,15 @@ span {
 
 /*--- SIDEBAR ---*/
 .sidebar {
-  background: #1e2939;
-  color: #fff;
+  background: rgb(241, 241, 238);
+  background: linear-gradient(
+    356deg,
+    rgba(241, 241, 238, 1) 30%,
+    rgba(80, 82, 84, 0.6) 70%
+  );
+
   min-height: 1319px;
+  width: 30%;
 }
 .sidebar img {
   margin-top: 40px;
@@ -152,23 +163,23 @@ span {
   margin-top: 51px;
 }
 .h3-sidebar {
-  color: #fff;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 /* Contacts */
+.contacts-ref p {
+  margin: 0;
+}
+
 .contacts-ref a {
-  color: #ffffff;
-  opacity: 50%;
+  color: #120aa3;
 }
-#phone a {
-  text-decoration: none;
-}
-#phone a:hover,
-#mail a:hover {
+
+.contacts-ref a:hover {
   color: #47b5cd;
 }
+
 #phone::before {
   content: "\260e";
   margin-right: 7px;
@@ -193,6 +204,5 @@ span {
 .sidebar li::before {
   content: "•";
   padding-right: 7px;
-  color: #fb6d3a;
-  font-size: 14px;
+  font-size: 15px;
 }
