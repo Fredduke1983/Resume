@@ -155,12 +155,9 @@ h3 {
 .education {
   margin-top: 43px;
 }
-.education h3,
-.education h4,
-.education p {
-  margin-bottom: 12px;
+.school {
+  margin-top: 10px;
 }
-
 /*--- SIDEBAR ---*/
 .sidebar {
   background: rgb(241, 241, 241);
