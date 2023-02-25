@@ -58,8 +58,8 @@ h3 {
 
 /*--- MAIN-CONTENT --- */
 .main-content {
-  margin: 70px auto;
-  width: 60%;
+  margin: 70px 0 70px auto;
+  width: 62%;
 }
 
 /* about */
@@ -90,11 +90,8 @@ h3 {
   margin-top: 40px;
   padding: 40px 20px;
   box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15%;
-
-  /* padding-bottom: 40px; */
-
-  /* border: 1px solid black; */
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .projects ol {
@@ -123,14 +120,11 @@ h3 {
 
 /* work style */
 .work {
-  /* width: 525px; */
-  /* padding-bottom: 40px;
-  border: 1px solid black;
-  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.6); */
   margin-top: 40px;
   padding: 40px 20px;
   box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .company {
   margin-bottom: 7px;
@@ -170,11 +164,11 @@ h3 {
 /* education */
 
 .education {
-  /* border: 1px solid black; */
   margin-top: 40px;
   padding: 40px 20px;
   box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .school {
   margin-bottom: 10px;
@@ -226,7 +220,6 @@ h3 {
   font-weight: 600;
   font-size: 15qpx;
   color: var(--accent-color);
-  /* color: #000; */
   margin-left: 7px;
 }
 
