@@ -50,45 +50,61 @@ h3 {
   padding: 0px;
 }
 
-.main-title {
+.title-exp {
   color: var(--main-color);
-  font-size: 22px;
   font-weight: 700;
+  margin-bottom: 15px;
 }
 
 /*--- MAIN-CONTENT --- */
 .main-content {
-  margin: 40px auto;
-  width: 50%;
+  margin: 70px auto;
+  width: 60%;
 }
 
 /* about */
 .title-user {
+  font-size: 30px;
   display: block;
   border-bottom: 1px solid var(--main-color);
 }
 
 .about h2 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .about h1 {
-  font-size: 45px;
+  font-size: 50px;
+  padding-bottom: 8px;
 }
+
 .user-description {
   width: 75%;
   margin-top: 24px;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* projects */
 .projects {
   margin-top: 40px;
+  padding: 40px 20px;
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
+
+  /* padding-bottom: 40px; */
+
+  /* border: 1px solid black; */
 }
+
 .projects ol {
   font-weight: 700;
   margin: 0;
   padding-left: 20px;
+}
+
+.projects-item {
+  margin-bottom: 7px;
 }
 
 .projects a {
@@ -105,20 +121,24 @@ h3 {
   font-weight: normal;
 }
 
-.projects h3 {
-  margin-bottom: 8px;
-}
-
 /* work style */
 .work {
-  margin-top: 51px;
-  margin-right: 217px;
-  width: 525px;
+  /* width: 525px; */
+  /* padding-bottom: 40px;
+  border: 1px solid black;
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.6); */
+  margin-top: 40px;
+  padding: 40px 20px;
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
 }
+.company {
+  margin-bottom: 7px;
+}
+
 .work h4 {
   font-size: 16px;
   font-weight: 700;
-  margin-top: 12px;
 }
 .work span,
 .education span {
@@ -132,7 +152,7 @@ h3 {
 }
 
 .work-list {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .work li {
@@ -146,17 +166,18 @@ h3 {
   color: var(--accent-color);
   padding-right: 7px;
 }
-.company {
-  margin-top: 20px;
-}
 
 /* education */
 
 .education {
-  margin-top: 43px;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  padding: 40px 20px;
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
 }
 .school {
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*--- SIDEBAR ---*/
 .sidebar {
