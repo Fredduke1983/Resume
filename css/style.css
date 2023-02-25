@@ -189,8 +189,9 @@ h3 {
   margin-top: 40px;
   height: 260px;
   width: 70%;
-  border-bottom-right-radius: 70px;
-  border-top-right-radius: 70px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 6px 6px 30px rgb(0 0 0 / 20%);
 }
 .side-content {
   margin-left: 40px;
